@@ -1,0 +1,8 @@
+---
+- name: Run this dummy role
+  hosts: localhost
+  gather_facts: no
+
+  vars:
+    dummy_message: You can override this dummy_message variable with extra vars if you like.
+    dummy_fail: This is a failure message, mwuahahaha!
