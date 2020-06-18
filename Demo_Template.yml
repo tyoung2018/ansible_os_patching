@@ -1,7 +1,7 @@
 ---
-- name: Run this dummy role
+- name: Execute play 01
   hosts: localhost
-  gather_facts: no
+  gather_facts: yes
 
   vars:
     dummy_message: You can override this dummy_message variable with extra vars if you like.
